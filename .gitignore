@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+REACT_APP_FIREBASE_API_KEY = "AIzaSyDZx8uz7DWyvYiUjwXZxwoVtKHuu0nE4OE"
+REACT_APP_FIREBASE_AUTH_DOMAIN = "appdev1-task-manager-49e96.firebaseapp.com"
+REACT_APP_FIREBASE_PROJECT_ID = "appdev1-task-manager-49e96"
+REACT_APP_FIREBASE_STORAGE_BUCKET = "appdev1-task-manager-49e96.firebasestorage.app"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID = "112681821655"
+REACT_APP_FIREBASE_APP_ID = "1:112681821655:web:ebdba6fc2a81e6e54e9792"
+REACT_APP_FIREBASE_MEASUREMENT_ID = "G-7HR3C5HTGR"
