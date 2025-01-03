@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
-import './App.css'
-import { db } from './firebase'
+import { db } from '../firebase'
 import { collection, doc, getDocs, deleteDoc, addDoc, updateDoc, getDoc } from "firebase/firestore";
-import './components/SignOut'
+import './SignOut'
 
 function App() {
 
