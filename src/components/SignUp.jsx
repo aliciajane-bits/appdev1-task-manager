@@ -22,15 +22,15 @@ function SignUp() {
 
     return (
         <>
-            <div clssName="Sign-In Form">
-                <h1>Sign-In Page</h1>
-                <form onSubmit = {handleSignIn}>
+            <div className="Sign-In Form">
+                <h1>Sign-Up Page</h1>
+                <form onSubmit = {handleSignUp}>
                     <br></br>
                     <br></br>
                     <input type="email"  placeholder="user@email.com" onChange={(e) => {setEmail(e.target.value)}} required></input>
                     <br></br>
                     <br></br>
-                    <input type="text"  placeholder="Password" onChange={(e) => {setPassword(e.target.value)}} required ></input>
+                    <input type="password"  placeholder="Password" onChange={(e) => {setPassword(e.target.value)}} required ></input>
                     <br></br>
                     <br></br>
                 </form>

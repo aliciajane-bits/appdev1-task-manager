@@ -33,7 +33,7 @@ function SignIn() {
 
   return (
     <>
-      <div clssName="Sign-In Form">
+      <div className="Sign-In Form">
         <h1>Sign-In Page</h1>
         <form onSubmit = {handleSignIn}>
           <br></br>
@@ -41,7 +41,7 @@ function SignIn() {
           <input type="email" name="email" id="user_email" placeholder="Enter your email"></input>
           <br></br>
           <br></br>
-          <input type="text" name="username" id="username" placeholder="Enter your password"></input>
+          <input type="password" name="password" id="username" placeholder="Enter your password"></input>
           <br></br>
           <br></br>
          </form>
